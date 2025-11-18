@@ -60,7 +60,7 @@ Use this checklist to track your progress and ensure you meet all requirements.
 - [ ] Handle sensor read failures
 - [ ] Handle connection errors gracefully
 - [ ] Implement retry logic or fallback values
-- [ ] Program doesn't crash on hardware errors
+- [ ] Program does not crash on hardware errors
 
 ### Edge Case Handling
 - [ ] Handle empty lists/dictionaries
@@ -100,11 +100,11 @@ Use this checklist to track your progress and ensure you meet all requirements.
 ### Branching
 - [ ] Created at least 2 feature branches
 - [ ] Branch names are descriptive (e.g., `feature/user-auth`)
-- [ ] Main/master branch remains stable
+- [ ] Main branch remains stable
 - [ ] All feature work is done in branches
 
 ### Commits
-- [ ] At least 15+ commits total
+- [ ] At least 15 commits total
 - [ ] Commit messages are descriptive and clear
 - [ ] Commit messages explain "why" not just "what"
 - [ ] Commits represent logical units of work
@@ -118,112 +118,14 @@ Use this checklist to track your progress and ensure you meet all requirements.
 - [ ] PRs include how to test the changes
 - [ ] Each PR was reviewed and approved by TL
 
-### Git Workflow Examples
-
-**Good PR Description:**
-```
-## Summary
-Implement user authentication system with validation
-
-## Changes
-- Added User class with password hashing
-- Created login/register functionality
-- Added input validation for usernames and passwords
-
-## How to Test
-1. Run: python3 src/main.py
-2. Select "Register"
-3. Try registering with invalid inputs
-4. Should see error messages and not crash
-
-## Requirements Met
-- New coding concept: Password hashing
-- Error handling: Input validation
-- Classes: User, Session
-- Functions: login(), register(), validate_password()
-```
-
----
-
-## Code Review Preparation
-
-### What to Expect
-- [ ] TL will review your code on screen
-- [ ] You'll explain design decisions
-- [ ] You'll answer questions about your implementation
-- [ ] You may be asked to whiteboard key components
-- [ ] You may need to reproduce parts of code
-
-### Things to Know Well
-- [ ] Why you designed classes the way you did
-- [ ] How your error handling works
-- [ ] How key algorithms function
-- [ ] The flow of your main application
-- [ ] Edge cases you handle
-
-### Whiteboard Practice
-- [ ] Practice explaining key functions out loud
-- [ ] Be able to draw class diagrams
-- [ ] Understand call flows between methods
-- [ ] Know pseudocode for complex logic
-
----
-
-## Presentation Preparation
-
-### Content (5 minutes)
-- [ ] **Overview (2-3 min):** Clear problem statement, key features, design decisions
-- [ ] **Demo (2 min):** Live running program, 2-3 features, error handling
-
-### Presentation Checklist
-- [ ] Slides or outline prepared
-- [ ] Program runs without errors
-- [ ] Demo is rehearsed and smooth
-- [ ] Hardware demo works (if applicable)
-- [ ] Can answer questions about code
-- [ ] Time limit is met (≤5 minutes)
-
-### Assessment Rubric (see separate file)
-- [ ] Clarity of explanation
-- [ ] Code quality demonstrated
-- [ ] Program runs correctly
-- [ ] Demo is complete and smooth
-- [ ] Requirements are met
-
 ---
 
 ## Final Submission Checklist
 
 - [ ] All code is in `src/` directory
 - [ ] `main.py` runs without errors
-- [ ] `writing/report.md` is complete (500-800 words)
-- [ ] All docstrings are present and complete
-- [ ] README explains the project
-- [ ] `.gitignore` is present
+- [ ] `writing/report.md` is complete (at least 300)
 - [ ] Git history is clean (good commit messages)
 - [ ] At least 2 PRs merged
 - [ ] Code follows all requirements above
 - [ ] Presentation is prepared and rehearsed
-
----
-
-## Timeline Tracking
-
-- [ ] **Nov 17-24:** Design phase complete, repo created
-- [ ] **Nov 25-Dec 1:** PR #1 submitted and approved
-- [ ] **Dec 2-8:** PR #2 submitted and approved
-- [ ] **Dec 8:** Code reviews completed with TL
-- [ ] **Dec 8:** Final presentation delivered
-
----
-
-## Additional Resources
-
-- Lab reference code (Classes, error handling, etc.)
-- Python documentation: https://docs.python.org/3/
-- Git guide: https://git-scm.com/book/en/v2
-- Markdown guide: https://guides.github.com/features/mastering-markdown/
-
----
-
-**Good luck with your project! Start early and commit often.** 🚀

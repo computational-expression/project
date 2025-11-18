@@ -2,55 +2,85 @@
 
 ## What to Expect During Code Review
 
-**Duration:** ~30 minutes per PR  
-**Audience:** You + Teaching Assistant/Instructor  
 **Format:**
-1. TL reviews your code on screen (~10 min)
-2. TL asks conceptual questions from our slides (~15 min)
-3. You may be asked to whiteboard solutions (~5 min)
+1. TL/Instructor reviews your code in your pull request (PR)
+2. **Randomly selects 3 computational concepts** from the topics we covered in class (see list below)
+3. **Asks 3 questions** about how you used each concept - one question per concept
+4. For each concept, the question will be one of these three types:
+   - **Question Type 1:** Execution tracing - walk through your code step-by-step with specific inputs
+   - **Question Type 2:** Edge cases - explain what happens with unusual or boundary inputs
+   - **Question Type 3:** Code modification - make a small change to your code and trace through it
+5. You use a whiteboard to **reproduce portions of your code** and explain:
+   - What happens step-by-step
+   - What values are stored in variables/data structures
+   - How data flows through your code
+6. TL/instructor approves your PR or requests changes.
 
-**How Conceptual Questions Work:**
-- We will **randomly select 3 concepts** from the list below
-- Each concept is something we covered in lectures (Weeks 2-12)
-- You should be able to explain how you used each concept in YOUR code
-- Questions will ask about the "how" and "why" of your implementation
-- No trick questions - just checking your understanding!
+**Remember:** Code reviews are not about being perfect. They are about demonstrating that you understand the code you wrote. We want to see that you can trace through your own code and explain what is happening!
+
+---
+
+## The Three Question Types
+
+For each of the 3 randomly selected concepts, we will ask one question. Questions will follow one of these three patterns:
+
+**Question Type 1: Execution Tracing**
+- Walk through your code step-by-step with specific inputs
+- Show how variables change, what loops/conditionals do, what functions return
+- Demonstrate understanding of your actual code logic
+
+**Question Type 2: Edge Cases & Variations**
+- Explain what happens with boundary cases (empty inputs, extreme values, etc.)
+- Show how your error handling works (if applicable)
+- Demonstrate understanding beyond the "happy path"
+
+**Question Type 3: Code Modification**
+- Make a small modification to your code and trace through the result
+- Explain what changed and why the modification has the expected effect
+- Demonstrate understanding of how pieces fit together
 
 ---
 
 ## Before Your Code Review
 
 ### Prepare Your Code
-- [ ] Code is clean and well-commented
+- [ ] Code is clean and well-formatted
 - [ ] All docstrings are complete and accurate
 - [ ] Code runs without errors
-- [ ] You've tested all major features
+- [ ] You have tested all major features
 - [ ] No unused imports or variables
 
 ### Know Your Code
 - [ ] Understand every line you wrote
 - [ ] Be able to explain why you made design choices
-- [ ] Know the flow of your main functions
-- [ ] Understand edge cases and error handling
-- [ ] Be ready to modify code on the fly if asked
+- [ ] Know the flow of your main functions and loops
+- [ ] Be ready to trace through code with sample inputs
+- [ ] Understand what data is stored at each step
+- [ ] Know your edge cases (empty lists, invalid input, etc.)
 
-### Practice Whiteboarding
-- [ ] Draw your class diagram
-- [ ] Pseudocode your main algorithm
-- [ ] Explain call flow between methods
-- [ ] Show how data flows through your classes
+### Practice All Three Question Types
+**Question Type 1: Execution Tracing**
+- [ ] Trace through each loop step-by-step with specific inputs
+- [ ] Show how variables change at each iteration
+- [ ] Practice with different input sizes (small, large, etc.)
 
-### Prepare Examples
-- [ ] Know how to run specific features
-- [ ] Have test cases ready
-- [ ] Know what inputs cause errors
-- [ ] Be ready to show error handling
+**Question Type 2: Edge Cases & Variations**
+- [ ] Trace through your code with empty inputs
+- [ ] Trace with invalid or unexpected inputs
+- [ ] Show how your error handling works
+- [ ] Practice explaining what happens in edge cases
+
+**Question Type 3: Code Modification**
+- [ ] Practice modifying your code on paper
+- [ ] Trace through the modified version
+- [ ] Be able to explain what changed and why
+- [ ] Think about alternative implementations
 
 ---
 
 ## Concepts We'll Ask About
 
-During your code reviews, we will **randomly select 3 concepts** from this list to ask about. You should be prepared to explain how you used each concept in your code, how it works, and the trade-offs of your implementation.
+We will **randomly select 3 concepts** from this list and ask **one question per concept** about how you used it in your code.
 
 **Study these concepts from our slides (Weeks 2-12):**
 
@@ -63,7 +93,7 @@ During your code reviews, we will **randomly select 3 concepts** from this list 
 - **Operators** - Arithmetic (+, -, *, /, //, %), comparison (==, !=, <, >, <=, >=), logical (and, or, not), string concatenation/formatting
 
 ### Control Flow - Conditionals (Week 3)
-- **If/Elif/Else** - Condition evaluation, boolean logic, nested conditionals, ternary operators
+- **If/Elif/Else** - Condition evaluation, boolean logic, nested conditionals
 
 ### Control Flow - Loops (Week 4)
 - **For Loops** - Iteration over sequences, range(), loop variable usage, nested loops
@@ -77,7 +107,7 @@ During your code reviews, we will **randomly select 3 concepts** from this list 
 - **Dictionary Structure** - Key-value pairs, accessing values, keys(), values(), items()
 - **Dictionary Usage** - When to use dicts vs lists, nested structures, iteration patterns
 
-### Functions & Methods (Week 9)
+### Functions (Week 9)
 - **Function Definition** - Parameters, return values, docstrings, scope
 - **Function Design** - Single responsibility, parameter choices, return type decisions
 
@@ -99,155 +129,119 @@ During your code reviews, we will **randomly select 3 concepts** from this list 
 
 ---
 
-## Whiteboarding Exercise Examples
+## How to Prepare for Each Question Type
 
-Be prepared to whiteboard solutions for questions like:
+### For Execution Tracing Questions
+You will be asked to walk through a section of your code with specific inputs and show what happens:
+- Trace through step-by-step on the whiteboard
+- Show the value of each variable at key points
+- Show what happens in each loop iteration
+- Arrive at the final result
 
-### Example 1: Class Diagram
-**Question:** "Draw me a diagram showing your classes and how they interact"
+Be ready to trace through any part of your code, not just the simple parts.
 
-**What to include:**
-- Class boxes with attributes and methods
-- Arrows showing relationships
-- Labels showing what each class does
+### For Edge Case Questions
+You will be asked what happens when your code encounters unusual situations:
+- Think about empty inputs (empty lists, empty strings, etc.)
+- Think about extreme values (very large or very small numbers, etc.)
+- Think about invalid inputs (what if the user enters something unexpected?)
+- Be ready to show how your code handles these situations
 
-### Example 2: Function Trace
-**Question:** "Trace through this function with input [X]"
-
-**What to do:**
-- Show variables at each step
-- Show loop iterations
-- Explain the final output
-
-### Example 3: Pseudocode
-**Question:** "Show me the pseudocode for your main algorithm"
-
-**What to include:**
-- High-level steps
-- Decision points
-- Loop structures
-- Function calls
-
-### Example 4: Error Handling
-**Question:** "How would you handle a missing file error?"
-
-**What to show:**
-- Try/except block
-- Specific exception to catch
-- What happens in except block
-- How user is informed
+### For Code Modification Questions
+You will be asked to make a small change to your code and trace through it:
+- Make a modification on the whiteboard
+- Trace through the modified code with sample input
+- Explain what changed and what effect it has
+- Show that you understand how the code works, not just what it does
 
 ---
 
-## Common Pitfall Answers to Avoid
+## Whiteboarding Tips
 
-❌ **BAD:** "I'm not sure... I just copied this from the internet"  
-✅ **GOOD:** "I used this pattern because [reason]. Let me explain how it works..."
+When you are asked to show your work:
 
-❌ **BAD:** "This is just how I wrote it"  
-✅ **GOOD:** "I structured it this way because [design reasoning]..."
+1. **Show the code** on the whiteboard (or point to it on screen)
+2. **Track variables** - write down what each variable contains at each step
+3. **Show iteration** - if it is a loop, show what happens in iteration 1, 2, etc.
+4. **Explain as you go** - talk through your thinking out loud
+5. **Arrive at the answer** - show what the final result is
+6. **Handle errors gracefully** - if you make a mistake, correct it and keep going
 
-❌ **BAD:** "It works, so it must be right"  
-✅ **GOOD:** "I tested it with these cases: [examples]. It handles these edge cases: [examples]..."
+**Example Whiteboarding Session:**
+```
+Code:
+def add_numbers(lst):
+    total = 0
+    for num in lst:
+        total = total + num
+    return total
 
-❌ **BAD:** "I don't know what my code does"  
-✅ **GOOD:** "Line by line, this code does [explanation]..."
+Call: add_numbers([5, 10, 3])
 
----
+Whiteboard:
+Step 1: total = 0, lst = [5, 10, 3]
+Step 2 (Iteration 1): num = 5, total = 0 + 5 = 5
+Step 3 (Iteration 2): num = 10, total = 5 + 10 = 15
+Step 4 (Iteration 3): num = 3, total = 15 + 3 = 18
+Step 5: return 18
 
-## How to Answer Questions
-
-### Strategy 1: Explain Your Thinking
-1. **Restate** the question to make sure you understand
-2. **Explain** your approach and why you chose it
-3. **Show** evidence (code, test results, logic)
-4. **Defend** your choice with reasoning
-
-**Example:**
-> **Question:** "Why did you use a dictionary here instead of a list?"  
-> **Answer:** "I used a dictionary because I need to look up items by their name, not by position. If I used a list, I'd have to search through every element to find the right one. With a dictionary, lookup is O(1) instead of O(n)."
-
-### Strategy 2: Show Your Code
-1. **Point to** the relevant code on screen
-2. **Read** the code out loud
-3. **Explain** what each line does
-4. **Show** an example execution
-
-### Strategy 3: Use Examples
-1. **Pick** a specific example input
-2. **Trace** through your code with that input
-3. **Show** the intermediate steps
-4. **Arrive** at the correct output
-
-### Strategy 4: Ask for Clarification
-If you don't understand the question:
-1. "Can you rephrase that?"
-2. "Do you mean X or Y?"
-3. "Can you show me an example?"
-
-**Don't just guess!** It's better to ask than to answer wrongly.
+Edge case - empty list:
+Call: add_numbers([])
+- Loop never executes
+- total stays 0
+- return 0
+```
 
 ---
 
-## Red Flags That Show Lack of Understanding
+## How Questions Adapt During Code Review
 
-🚩 You can't explain what your code does  
-🚩 You don't know why you made a design choice  
-🚩 You can't trace through your own code  
-🚩 You can't explain an error your code throws  
-🚩 You copy-pasted code without understanding it  
-🚩 Your docstrings don't match what the code does  
+The questions are not scripted - they adapt based on your responses:
 
----
+- **If you trace perfectly** → You will move to edge case and modification questions
+- **If you struggle with tracing** → We will focus more on execution before moving forward
+- **If you understand everything easily** → Questions may go deeper or cover more concepts
+- **If you get stuck** → We will ask clarifying questions to help you think through it
 
-## Green Flags That Show Understanding
-
-✅ You can explain each design decision  
-✅ You know edge cases your code handles  
-✅ You can whiteboard your algorithm  
-✅ You understand the trade-offs in your design  
-✅ You can modify code on the fly  
-✅ You can explain what happens if something fails  
+This means **you cannot memorize answers** - you need genuine understanding to do well.
 
 ---
 
-## Practice Questions for Your Specific Project
+## Red Flags During Code Review
 
-Prepare answers for these (tailored to your project):
+These show lack of understanding (and will not pass):
+- 🚩 Cannot trace through your own code
+- 🚩 Do not know what variables contain at key steps
+- 🚩 Cannot explain an error your code throws
+- 🚩 Do not understand why you made a design choice
+- 🚩 Cannot attempt a code modification
+- 🚩 Completely stumped by edge case questions
 
-1. **Architecture Question:**
-   "How do your classes interact in your main workflow?"
+## Green Flags During Code Review
 
-2. **Error Handling Question:**
-   "What's the most important error your code needs to handle and how do you do it?"
-
-3. **Data Structure Question:**
-   "Show me your most important data structure and how you use it"
-
-4. **Algorithm Question:**
-   "Walk me through [your main function] step by step"
-
-5. **Design Question:**
-   "If you had to add [new feature], how would you change your design?"
+These show strong understanding:
+- ✅ Trace through code smoothly and accurately
+- ✅ Explain variable state at each step
+- ✅ Handle edge cases confidently
+- ✅ Can modify code and predict the result
+- ✅ Explain design choices clearly
+- ✅ Recover gracefully from mistakes
 
 ---
-
-## During Code Review: Tips
 
 ✅ **DO:**
 - Listen carefully to the question
 - Take a moment to think before answering
-- Admit if you don't know something
-- Ask for clarification if needed
-- Back up claims with code/examples
-- Be humble and ready to learn
+- Ask for clarification if you do not understand
+- Show your work on the whiteboard step-by-step
+- Admit if you are unsure about something
+- Point to your code for reference
 
-❌ **DON'T:**
-- Interrupt the TL
-- Ramble without a clear answer
-- Defend bad code decisions
-- Blame external factors
-- Guess or make things up
+❌ **DO NOT:**
+- Rush to answer
+- Make up answers
+- Defend code you do not understand
+- Ignore the question and explain something else
 - Get defensive about feedback
 
 ---
@@ -256,25 +250,10 @@ Prepare answers for these (tailored to your project):
 
 **Regardless of approval:**
 - Thank your TL for feedback
-- Take notes on improvement areas
-- Ask clarifying questions if confused
-- Implement requested changes promptly
-- Learn from the feedback
+- Ask for clarification on any suggestions
+- Take notes on areas to improve
+- Implement requested changes
 
 ---
 
-## Practice Whiteboarding
-
-**Before your code review, practice:**
-
-1. **Draw your class diagram** on paper
-2. **Whiteboard your main algorithm** with a friend
-3. **Trace through code** with sample inputs
-4. **Explain your design** out loud
-5. **Answer practice questions** without looking at code
-
-**Pro Tip:** Have a friend ask you questions while you whiteboard - it simulates the real experience!
-
----
-
-**Remember:** Code reviews aren't about being perfect. They're about demonstrating understanding and being able to explain your work. The TL wants to see that you know what you built! 🎯
+**Remember:** Code reviews are not about being perfect. They are about demonstrating that you understand the code you wrote. We want to see that you can trace through your own code and explain what is happening! 

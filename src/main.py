@@ -14,13 +14,10 @@ def main():
     Orchestrates the primary workflow of your application,
     including user interaction, data processing, and output.
     """
-    print("Welcome to [Your Application Name]")
-    print("=" * 50)
     
     # TODO: Import and initialize your classes here
     # TODO: Create your main application loop
-    # TODO: Handle user input and menu navigation
-    # TODO: Demonstrate your key features
+    # TODO: Handle user input and menu navigation if applicable
     
     print("\nThank you for using [Your Application Name]!")
 
