@@ -47,7 +47,7 @@ For this final project, you will develop a **Python application of your choice**
 
 ## Coding Requirements
 
-**For complete details on all coding requirements, see `REQUIREMENTS.md`.**
+**For complete details on all coding requirements, see [REQUIREMENTS.md](https://github.com/computational-expression/project/blob/main/REQUIREMENTS.md).**
 
 ### **Program Structure**
 Your project must include:
@@ -74,7 +74,7 @@ The project requires:
 ### **Branch Strategy**
 - **At least 2 separate branches** for feature development
 - **Branch naming:** Use descriptive names
-- **Main/Master branch:** Should remain stable; merges only via PR
+- **Main branch:** Should remain stable; merges only via PR
 
 ### **Commit Messages**
 - **Format:** Clear, descriptive messages that explain the "why" not just the "what"
@@ -85,7 +85,7 @@ The project requires:
   - ❌ `update`
 
 ### **Pull Requests**
-- **Minimum 2 PRs:** Each PR should represent a logical feature or milestone
+- **Minimum 2 PRs:** Each PR should represent a logical feature or milestone (for example, a completion of one class)
 - **PR Descriptions:** Each PR must include:
   - Summary of changes
   - What problem it solves
@@ -98,7 +98,7 @@ The project requires:
 
 ## Code Review Process (Week 15)
 
-**For complete code review preparation details, see `CODE_REVIEW_PREP.md`.**
+**For complete code review preparation details, see [CODE_REVIEW_PREP.md](https://github.com/computational-expression/project/blob/main/CODE_REVIEW_PREP.md).**
 
 During your code reviews:
 - TL will review your code and ask conceptual questions
@@ -116,6 +116,7 @@ During your code reviews:
 
 ## Final Presentation (December 8)
 
+For more details, see [PRESENTATION_RUBRIC.md](https://github.com/computational-expression/project/blob/main/PRESENTATION_RUBRIC.md)
 ### **Presentation Format**
 - **Duration:** 5 minutes
 - **Audience:** Entire class
