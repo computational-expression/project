@@ -61,6 +61,6 @@ Before December 8, verify:
 2. **Keep overview simple** - 2-3 minutes is quick
 3. **Show your strongest features** - Pick what works best
 4. **Have a backup plan** - Know what you would do if something fails
-5. **Speak clearly** - Explain what is happening as you demo
+5. **Speak clearly and loudly** - Explain what is happening as you demo
 6. **Be confident** - You know your code better than anyone
 
