@@ -149,6 +149,14 @@ During your code reviews:
 | **Code Review #2** | 2.5 points |
 | **Final Presentation** | 2 points |
 
+### **Automated Checks**
+GatorGrade will automatically check minimal requirements:
+- Minimum number of commits (15)
+- Minimum word count in report (300 words)
+- Basic file structure (`main.py` exists, has docstring)
+
+**Note:** GatorGrade checks are minimal baseline requirements only. All other assessment (code quality, functionality, design, code reviews, presentation) will be evaluated by the instructor.
+
 ---
 
 ## Using Resources & LLMs
