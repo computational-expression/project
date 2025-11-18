@@ -23,8 +23,6 @@ For this final project, you will develop a **Python application of your choice**
 
 ## Quick Start
 
-**New to the project?** Follow these steps:
-
 1. Read this README
 2. Check [REQUIREMENTS.md](https://github.com/computational-expression/project/blob/main/REQUIREMENTS.md) for complete checklist
 3. Create your python programs in `src/` and start coding
@@ -92,7 +90,7 @@ The project requires:
   - How to test it
   - Any breaking changes or dependencies
   - Which assignment requirements it fulfills
-- **Code Review:** Each PR must be reviewed and approved by a TL before merging
+- **Code Review:** Each PR must be reviewed and approved by a TL or an instructor before merging
 
 ---
 
@@ -102,9 +100,8 @@ The project requires:
 
 During your code reviews:
 - TL will review your code and ask conceptual questions
-- You'll explain design decisions and walk through key functions
-- You may be asked to whiteboard algorithms or class diagrams
-- Code must be cleaned, documented, and running without errors
+- You'll explain design decisions and walk through key functionality using a white board
+- Code that is reviewed must be cleaned, documented, and running without errors
 
 **Prepare by:**
 - Understanding every line you wrote
@@ -116,7 +113,6 @@ During your code reviews:
 
 ## Final Presentation (December 8)
 
-For more details, see [PRESENTATION_RUBRIC.md](https://github.com/computational-expression/project/blob/main/PRESENTATION_RUBRIC.md)
 ### **Presentation Format**
 - **Duration:** 5 minutes
 - **Audience:** Entire class
@@ -136,7 +132,7 @@ For more details, see [PRESENTATION_RUBRIC.md](https://github.com/computational-
 - Show how it handles an edge case or error gracefully
 - Run it start to finish without errors
 
-**See `PRESENTATION_RUBRIC.md` for the complete assessment checklist.**
+**See [PRESENTATION_RUBRIC.md](https://github.com/computational-expression/project/blob/main/PRESENTATION_RUBRIC.md) for the complete assessment checklist.**
 
 ---
 
@@ -146,7 +142,7 @@ For more details, see [PRESENTATION_RUBRIC.md](https://github.com/computational-
 
 | Component | Points |
 |-----------|--------|
-| **Working Code** | 7 points |
+| **Code** | 7 points |
 | **Report** | 0.5 point |
 | **Git** (commits, PRs) | 0.5 point |
 | **Code Review #1** | 2.5 points |
@@ -175,7 +171,7 @@ For more details, see [PRESENTATION_RUBRIC.md](https://github.com/computational-
 - Claim code is yours if you cannot discuss its implementation
 
 **During code reviews**, you will be asked to explain your code and may be asked to:
-- Trace through your functions with example inputs
+- Trace through your functions and control flows with example inputs
 - Whiteboard your algorithms
 - Modify code on the fly
 - Answer questions about design choices
@@ -221,8 +217,7 @@ If you cannot explain or reproduce your code, that is a red flag that you have n
 ## Getting Help
 
 For questions about the project:
-- Read `REQUIREMENTS.md` for detailed information
-- Check `CODE_REVIEW_PREP.md` if confused about code review
-- Visit office hours for help
+- Ask questions during class and lab project work days (week 14 and week 15)
+- Visit office hours for help: [instructor office hours](https://janyljumadinova.com/schedule/), [TL office hours](https://www.cis.allegheny.edu/teaching/technicalleaders/)
 - Ask on the course Discord channel
 
