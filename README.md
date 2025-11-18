@@ -45,6 +45,8 @@ For this final project, you will develop a **Python application of your choice**
 **For complete details on all coding requirements, see `REQUIREMENTS.md`.**
 
 The project requires:
+- **Hardware projects:** Minimum 300 lines of code
+- **Software-only projects:** Minimum 400 lines of code
 - Minimum 2 classes with clear responsibilities
 - At least 12 functions/methods total
 - Error handling and edge case management
@@ -126,20 +128,49 @@ During your code reviews:
 
 ---
 
-## Grading Rubric
+## Grading
 
-| Category | Requirements | Points |
-|----------|--------------|--------|
-| **Code Requirements** | Classes, functions, data structures, control flow | 25% |
-| **Hardware/New Concept** | Successfully integrated and explained | 15% |
-| **Error Handling** | Gracefully handles edge cases and invalid input | 15% |
-| **Version Control** | Branch strategy, commit messages, PRs | 15% |
-| **Code Quality** | Docstrings, clean code, design patterns | 15% |
-| **Presentation** | Clarity, demo quality, professionalism (see `PRESENTATION_RUBRIC.md`) | 15% |
+**Total Points: 15**
+
+| Component | Points |
+|-----------|--------|
+| **Working Code** | 7 points |
+| **Code Review #1** | 3 points |
+| **Code Review #2** | 3 points |
+| **Final Presentation** | 2 points |
 
 ---
 
-## Tips for Success
+## Using Resources & LLMs
+
+**You are encouraged to use online resources and LLMs (including GitHub Copilot, ChatGPT, Claude, etc.) to help with your project.**
+
+**However, there are important requirements:**
+
+✅ **You must:**
+- **Understand every line of code** you submit
+- **Be able to explain** your code design and implementation
+- **Be able to reproduce** any code you use (not just copy-paste)
+- **Know why** you made each design choice
+- **Be able to modify** your code if asked during code review
+
+❌ **You cannot:**
+- Submit code you don't understand
+- Copy code without learning how it works
+- Use AI-generated code that you can't explain in code review
+- Claim code is yours if you can't discuss its implementation
+
+**During code reviews**, you will be asked to explain your code and may be asked to:
+- Trace through your functions with example inputs
+- Whiteboard your algorithms
+- Modify code on the fly
+- Answer questions about design choices
+
+If you can't explain or reproduce your code, that's a red flag that you haven't truly learned it.
+
+**Bottom line:** Use resources to learn faster, but make sure the final code and understanding are genuinely yours.
+
+---
 
 ### During Development
 ✅ Commit often with clear messages  

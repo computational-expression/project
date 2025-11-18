@@ -4,6 +4,10 @@ Use this checklist to track your progress and ensure you meet all requirements.
 
 ## Code Structure Requirements
 
+### Code Size
+- [ ] **Hardware Project:** Minimum 300 lines of code total
+- [ ] **Software-only Project:** Minimum 400 lines of code total
+
 ### New Concept
 
 - [ ] Hardware project: add one new hardware component

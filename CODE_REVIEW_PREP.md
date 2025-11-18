@@ -6,8 +6,15 @@
 **Audience:** You + Teaching Assistant/Instructor  
 **Format:**
 1. TL reviews your code on screen (~10 min)
-2. TL asks conceptual questions (~15 min)
+2. TL asks conceptual questions from our slides (~15 min)
 3. You may be asked to whiteboard solutions (~5 min)
+
+**How Conceptual Questions Work:**
+- We will **randomly select 3 concepts** from the list below
+- Each concept is something we covered in lectures (Weeks 2-12)
+- You should be able to explain how you used each concept in YOUR code
+- Questions will ask about the "how" and "why" of your implementation
+- No trick questions - just checking your understanding!
 
 ---
 
@@ -41,124 +48,54 @@
 
 ---
 
-## Conceptual Questions Bank
+## Concepts We'll Ask About
 
-The TL may ask questions from these categories. **Study these and be prepared!**
+During your code reviews, we will **randomly select 3 concepts** from this list to ask about. You should be prepared to explain how you used each concept in your code, how it works, and the trade-offs of your implementation.
 
-### 1. Object-Oriented Programming (OOP)
+**Study these concepts from our slides (Weeks 2-12):**
 
-#### Class Design & Responsibility
-- "Why did you create separate classes for X and Y?"
-- "What is the single responsibility of this class?"
-- "How would you refactor this code to follow OOP principles?"
-- "Draw me a diagram showing how your classes interact"
-- "Could you combine these two classes? Why/why not?"
-- "What would break if you moved this method to a different class?"
+### Python Fundamentals (Week 2)
+- **Variables & Naming** - Variable assignment, naming conventions, dynamic typing, scope
+- **Program Structure** - Statements, indentation, code blocks, execution flow
 
-#### Encapsulation & Data Hiding
-- "Why do you have this attribute? Could it be private?"
-- "What attributes does your class need to expose?"
-- "How does your class protect its internal state?"
-- "If someone uses your class wrong, how does it fail?"
+### Data Types & Operations (Week 3)
+- **Data Types** - int, float, str, bool, list, dict; type checking with `type()`
+- **Operators** - Arithmetic (+, -, *, /, //, %), comparison (==, !=, <, >, <=, >=), logical (and, or, not), string concatenation/formatting
 
-#### Inheritance & Composition
-- "Do your classes share behavior? Should they inherit from a parent class?"
-- "When would you use inheritance vs composition?"
-- "What if you had to add a third class? How would it fit?"
+### Control Flow - Conditionals (Week 3)
+- **If/Elif/Else** - Condition evaluation, boolean logic, nested conditionals, ternary operators
 
-#### Method Design
-- "This method does too much. How would you break it into smaller methods?"
-- "What would happen if someone passed None to this method?"
-- "Why does this method return this specific type?"
-- "Could this method have fewer parameters? How?"
+### Control Flow - Loops (Week 4)
+- **For Loops** - Iteration over sequences, range(), loop variable usage, nested loops
+- **While Loops** - Loop structure, exit conditions, infinite loop risks, loop counters
 
-### 2. Data Structures
+### Lists (Week 6)
+- **List Operations** - Indexing, slicing, append, remove, insert, length, iteration
+- **List Usage** - When to use lists, list methods, searching/filtering
 
-#### Lists
-- "Why did you choose a list for this instead of a dictionary?"
-- "How do you handle duplicate items in your list?"
-- "What's the complexity of finding an item in your list?"
-- "How would you keep your list sorted?"
+### Dictionaries (Week 10)
+- **Dictionary Structure** - Key-value pairs, accessing values, keys(), values(), items()
+- **Dictionary Usage** - When to use dicts vs lists, nested structures, iteration patterns
 
-#### Dictionaries
-- "What happens if the key doesn't exist in your dictionary?"
-- "Why is a dictionary better than a list for this use case?"
-- "Could you show me how you iterate over this dictionary?"
-- "What if you needed to support multiple values per key?"
+### Functions & Methods (Week 9)
+- **Function Definition** - Parameters, return values, docstrings, scope
+- **Function Design** - Single responsibility, parameter choices, return type decisions
 
-#### Complex Structures
-- "Walk me through how you access nested data in this structure"
-- "What validation do you do when adding to this data structure?"
-- "How do you prevent corruption of this data?"
+### Object-Oriented Programming (Week 11)
+- **Classes & Objects** - Class definition, `__init__`, attributes, methods, self
+- **Class Design** - When to create classes, class responsibilities, interaction between classes
 
-### 3. Error Handling & Validation
+### Error Handling
+- **Try/Except Blocks** - Exception types, catching specific exceptions, finally blocks
+- **Input Validation** - Type checking, range checking, error messages
 
-#### Input Validation
-- "What happens if the user enters invalid input?"
-- "How do you validate numeric input from users?"
-- "Walk me through your validation logic for this function"
-- "What edge cases did you consider for this input?"
+### Version Control (Week 11)
+- **Git Basics** - Branches, commits, pull requests, merge conflicts
+- **Workflow** - Feature branches, commit messages, code review process
 
-#### Exception Handling
-- "Why catch this specific exception instead of a general one?"
-- "What happens if an exception occurs here and you don't catch it?"
-- "Is it better to prevent an error or catch it?"
-- "Show me a try/except block from your code and explain it"
-
-#### Edge Cases
-- "What happens if your list is empty?"
-- "What if the user enters zero?"
-- "What if a sensor read fails?"
-- "How do you handle negative numbers/missing data/etc?"
-
-### 4. Algorithms & Logic
-
-#### Control Flow
-- "Walk me through what this loop does step-by-step"
-- "Why did you choose a while loop here instead of a for loop?"
-- "What would happen if you removed this condition?"
-- "Trace through this code with this example input"
-
-#### Complexity & Efficiency
-- "How many times does this loop execute in the worst case?"
-- "Could you make this code faster? How?"
-- "What's the time complexity of this operation?"
-
-#### Correctness
-- "Prove to me that this algorithm works correctly"
-- "What test cases would you use for this function?"
-- "Show me where a bug could hide in this code"
-
-### 5. Design Patterns & Architecture
-
-#### Code Organization
-- "Why did you put this function in this class?"
-- "How do you prevent code duplication?"
-- "Show me an example of good separation of concerns in your code"
-- "If you had to add a new feature, how would you organize it?"
-
-#### Modularity
-- "Could you reuse this class in another project?"
-- "Are your methods too tightly coupled?"
-- "How would you test this function in isolation?"
-
-#### Configuration & Flexibility
-- "What if you needed to change this hardcoded value?"
-- "How would you make this code work with different inputs?"
-- "What assumptions does your code make that might not always be true?"
-
-### 6. Hardware Integration (if applicable)
-
-#### Design
-- "Why did you choose this specific hardware component?"
-- "How does your code handle hardware failures?"
-- "What happens if the hardware isn't connected?"
-- "How would you add support for a second sensor?"
-
-#### Debugging
-- "How do you test your hardware code?"
-- "What's the most common hardware failure you've handled?"
-- "Show me your error handling for hardware operations"
+### Debugging (Week 5)
+- **Debugging Strategies** - Print statements, reading error messages, tracing code
+- **Common Errors** - Off-by-one errors, None values, type mismatches
 
 ---
 
