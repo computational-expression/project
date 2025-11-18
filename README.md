@@ -26,10 +26,10 @@ For this final project, you will develop a **Python application of your choice**
 **New to the project?** Follow these steps:
 
 1. Read this README
-2. Check `REQUIREMENTS.md` for complete checklist
-3. Use templates in `src/` to start coding
-4. Before code review, study `CODE_REVIEW_PREP.md`
-5. Before presentation, review `PRESENTATION_RUBRIC.md`
+2. Check [REQUIREMENTS.md](https://github.com/computational-expression/project/blob/main/REQUIREMENTS.md) for complete checklist
+3. Create your python programs in `src/` and start coding
+4. Before code review, study [CODE_REVIEW_PREP.md](https://github.com/computational-expression/project/blob/main/CODE_REVIEW_PREP.md)
+5. Before presentation, review [PRESENTATION_RUBRIC.md](https://github.com/computational-expression/project/blob/main/PRESENTATION_RUBRIC.md)
 
 ---
 
@@ -49,6 +49,14 @@ For this final project, you will develop a **Python application of your choice**
 
 **For complete details on all coding requirements, see `REQUIREMENTS.md`.**
 
+### **Program Structure**
+Your project must include:
+- **`main.py`** - The main entry point that runs your entire application
+- **At least 2 additional Python files** - One for each class
+- **Module structure** - Set up your classes as modules and import them into `main.py`
+- **Single execution point** - Your entire application must run by executing `main.py`
+
+### **Code Requirements**
 The project requires:
 - **Hardware projects:** Minimum 300 lines of code
 - **Software-only projects:** Minimum 400 lines of code
