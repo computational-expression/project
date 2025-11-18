@@ -71,7 +71,7 @@ For each of the 3 randomly selected concepts, we will ask one question. Question
 - [ ] Practice explaining what happens in edge cases
 
 **Question Type 3: Code Modification**
-- [ ] Practice modifying your code on paper
+- [ ] Practice modifying your code on the white board
 - [ ] Trace through the modified version
 - [ ] Be able to explain what changed and why
 - [ ] Think about alternative implementations
@@ -200,32 +200,9 @@ The questions are not scripted - they adapt based on your responses:
 
 - **If you trace perfectly** → You will move to edge case and modification questions
 - **If you struggle with tracing** → We will focus more on execution before moving forward
-- **If you understand everything easily** → Questions may go deeper or cover more concepts
 - **If you get stuck** → We will ask clarifying questions to help you think through it
 
 This means **you cannot memorize answers** - you need genuine understanding to do well.
-
----
-
-## Red Flags During Code Review
-
-These show lack of understanding (and will not pass):
-- 🚩 Cannot trace through your own code
-- 🚩 Do not know what variables contain at key steps
-- 🚩 Cannot explain an error your code throws
-- 🚩 Do not understand why you made a design choice
-- 🚩 Cannot attempt a code modification
-- 🚩 Completely stumped by edge case questions
-
-## Green Flags During Code Review
-
-These show strong understanding:
-- ✅ Trace through code smoothly and accurately
-- ✅ Explain variable state at each step
-- ✅ Handle edge cases confidently
-- ✅ Can modify code and predict the result
-- ✅ Explain design choices clearly
-- ✅ Recover gracefully from mistakes
 
 ---
 
