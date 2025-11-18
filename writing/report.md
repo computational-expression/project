@@ -14,11 +14,7 @@ Write at least 300 word report on your project.
 
 [What were the main challenges you faced and how did you solve them?]
 
-## Hardware Integration (if applicable)
-
-[If you used hardware, describe the components and how they interact with your code]
-
 ## References
 
-[List any external resources, tutorials, or libraries you used. **Also mention if you used GitHub Copilot, ChatGPT, Claude, or other LLMs - describe how you used them and what parts of your code they helped with.**]
+[List/link any external resources, tutorials, or libraries you used. **Also mention if you used GitHub Copilot, ChatGPT, Claude, or other LLMs - describe how you used them and what parts of your code they helped with.**]
 
