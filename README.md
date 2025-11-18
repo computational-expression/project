@@ -40,8 +40,8 @@ For this final project, you will develop a **Python application of your choice**
 | **Nov 17 - Nov 24** | Design and Development Phase | Plan your application and finalize requirements. Start development of functionality. |
 | **Nov 21 (5pm)** | Hardware Specification | **If using hardware:** Fill out [this form](https://docs.google.com/spreadsheets/d/1sU1WkAsvCPmxsCki2A7Zj4fWUsgKJxXN2aod4Vcg8E0/edit?usp=sharing) to specify any extra hardware you need |
 | **Nov 24 - Nov 25** | Development | Continue building core functionality |
-| **Dec 1 - Dec 5** | Development | Submit two PRs for code review |
-| **Dec 8** | Final Presentation | 5-minute overview presentation and live demo |
+| **Dec 1 - Dec 5** | Development | Submit two PRs & complete two code reviews |
+| **Dec 8** | Final Presentation & Submission | 5-minute overview presentation and live demo |
 
 ---
 
