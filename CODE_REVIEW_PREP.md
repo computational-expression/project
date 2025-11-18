@@ -60,7 +60,7 @@ For each of the 3 randomly selected concepts, we will ask one question. Question
 
 ### Practice All Three Question Types
 **Question Type 1: Execution Tracing**
-- [ ] Trace through each loop step-by-step with specific inputs
+- [ ] Trace through each loop/conditional/function step-by-step with specific inputs
 - [ ] Show how variables change at each iteration
 - [ ] Practice with different input sizes (small, large, etc.)
 
@@ -129,38 +129,11 @@ We will **randomly select 3 concepts** from this list and ask **one question per
 
 ---
 
-## How to Prepare for Each Question Type
-
-### For Execution Tracing Questions
-You will be asked to walk through a section of your code with specific inputs and show what happens:
-- Trace through step-by-step on the whiteboard
-- Show the value of each variable at key points
-- Show what happens in each loop iteration
-- Arrive at the final result
-
-Be ready to trace through any part of your code, not just the simple parts.
-
-### For Edge Case Questions
-You will be asked what happens when your code encounters unusual situations:
-- Think about empty inputs (empty lists, empty strings, etc.)
-- Think about extreme values (very large or very small numbers, etc.)
-- Think about invalid inputs (what if the user enters something unexpected?)
-- Be ready to show how your code handles these situations
-
-### For Code Modification Questions
-You will be asked to make a small change to your code and trace through it:
-- Make a modification on the whiteboard
-- Trace through the modified code with sample input
-- Explain what changed and what effect it has
-- Show that you understand how the code works, not just what it does
-
----
-
 ## Whiteboarding Tips
 
-When you are asked to show your work:
+You maybe asked to:
 
-1. **Show the code** on the whiteboard (or point to it on screen)
+1. **Preproduce the snippet of the code** on the whiteboard
 2. **Track variables** - write down what each variable contains at each step
 3. **Show iteration** - if it is a loop, show what happens in iteration 1, 2, etc.
 4. **Explain as you go** - talk through your thinking out loud
@@ -230,7 +203,3 @@ This means **you cannot memorize answers** - you need genuine understanding to d
 - Ask for clarification on any suggestions
 - Take notes on areas to improve
 - Implement requested changes
-
----
-
-**Remember:** Code reviews are not about being perfect. They are about demonstrating that you understand the code you wrote. We want to see that you can trace through your own code and explain what is happening! 

@@ -17,7 +17,7 @@ Use this checklist to track your progress and ensure you meet all requirements.
 - [ ] Have at least 2 classes (each in separate files recommended)
 - [ ] Each class has a module-level docstring
 - [ ] Each class has a class-level docstring
-- [ ] Classes are organized logically (separation of concerns)
+- [ ] Classes are organized logically (clear responsibilities)
 - [ ] Have a `main.py` file that orchestrates the application
 
 ### Functions & Methods
@@ -82,7 +82,7 @@ Use this checklist to track your progress and ensure you meet all requirements.
 
 ### Clean Code
 - [ ] Meaningful variable and function names
-- [ ] Consistent naming conventions (snake_case for variables)
+- [ ] Consistent naming conventions (lower-case for variables and functions, upper-case for classes)
 - [ ] No unused imports or variables
 - [ ] Code is readable and well-organized
 - [ ] Proper indentation and spacing
@@ -90,7 +90,7 @@ Use this checklist to track your progress and ensure you meet all requirements.
 ### Design Patterns
 - [ ] Classes have clear responsibilities
 - [ ] No unnecessary code duplication
-- [ ] Good separation of concerns
+- [ ] Each class has a specific purpose
 - [ ] Methods are reasonably sized (not too long)
 
 ---
@@ -99,14 +99,13 @@ Use this checklist to track your progress and ensure you meet all requirements.
 
 ### Branching
 - [ ] Created at least 2 feature branches
-- [ ] Branch names are descriptive (e.g., `feature/user-auth`)
-- [ ] Main branch remains stable
+- [ ] Branch names are descriptive
+- [ ] Main branch remains stable (no commits without merging)
 - [ ] All feature work is done in branches
 
 ### Commits
 - [ ] At least 15 commits total
 - [ ] Commit messages are descriptive and clear
-- [ ] Commit messages explain "why" not just "what"
 - [ ] Commits represent logical units of work
 - [ ] No massive commits combining many unrelated changes
 
@@ -124,7 +123,7 @@ Use this checklist to track your progress and ensure you meet all requirements.
 
 - [ ] All code is in `src/` directory
 - [ ] `main.py` runs without errors
-- [ ] `writing/report.md` is complete (at least 300)
+- [ ] `writing/report.md` is complete (at least 300 words)
 - [ ] Git history is clean (good commit messages)
 - [ ] At least 2 PRs merged
 - [ ] Code follows all requirements above
